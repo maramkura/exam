@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        <img alt="Brand" src="wtf1.png">
                     </a>
                 </div>
 
@@ -77,7 +77,7 @@
     <div class="container">
     <footer class="panel panel-default" style="height: 70px; padding: 25px; margin-top: 50px">
 
-            All rights reserved to WTF enterprices. 2017
+            All rights reserved to WTF Enterprise. 2017
  
     </footer>
     </div>
