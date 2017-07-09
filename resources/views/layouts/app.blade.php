@@ -72,9 +72,17 @@
         </nav>
 
         @yield('content')
-    </div>
 
+    </div>
+    <div class="container">
+    <footer class="panel panel-default" style="height: 70px; padding: 25px; margin-top: 50px">
+
+            All rights reserved to WTF enterprices. 2017
+ 
+    </footer>
+    </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
+
 </html>
